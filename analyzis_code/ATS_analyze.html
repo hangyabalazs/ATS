@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>ats_analyze</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+body {
+  background-color: white;
+  margin:1px;
+}
+h1 {
+  color: #990000; 
+  font-size: 30;
+  font-weight: normal;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+h2 {
+  color: #990000;
+  font-size: 20;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+pre.codeinput {
+  margin-left: 30px;
+}
+bld {
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000001">
+<h1 align="left">ATS_analyze</h1>
+<align="left">Analysis of the SessionData from ATS training.
+<h2>Syntax</h2>
+<p><blockquote><tt>analtable = ATS_analyze(a)</tt><br>
+</blockquote></p>
+<h2>Description</h2>
+<p>This function calculates data from the SessionData struct saved by
+ Bpod (Josh Sanders, Sanworks LLC).</p>
+<p><tt>AnalTable = ATS_analyze(A)</tt> where <tt>A</tt> is the animalID (1 for mouse-1, 2
+ for mouse-2) returns the following data organised into a matrix. The
+ columns contain the number of correct answers, incorrect answers,
+ premature responses, omissions; accuracy%, omission%, reaction times,
+ sessionIDs, stages, date-day, date-hour, date-minute. The rows contain
+ seperate sessions.</p>
+
+</body>
+</html>
